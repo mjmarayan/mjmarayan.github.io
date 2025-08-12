@@ -1,0 +1,123 @@
+.head1 {
+    color: white;
+    text-align: right;
+    font-family: Arial, sans-serif;
+}
+.par1{
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.line1{
+    font-style: italic;
+    color: red;
+}
+.line2{
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.line3{
+    font-family: Arial, sans-serif;
+    color: rgb(199, 12, 127);
+    font-weight: bold;
+}
+.line4{
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.line5{
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.line6{
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.par2{
+    color: white;
+    font-family: Arial, sans-serif;
+}
+tr{
+    color: red;
+    font-family: Arial, sans-serif;
+}
+.head2{
+    color: red;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.par3{
+    color: white;
+    font-family: Arial, sans-serif;
+     text-align: center;
+     width: 100%;
+}
+.span1{
+    color: red;
+    font-family: Arial, sans-serif;
+    text-decoration: underline;}
+.span2{
+    color: yellow;
+    font-family: Arial, sans-serif;
+    text-decoration: underline;}
+.head3{
+    color: white;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    border-top: 2px solid red;
+    border-left: 2px solid red;
+    background-color: black;
+   width: 25%;
+}
+.span3{
+    color: blue;
+    font-family: Arial, sans-serif;
+}
+.span4{
+    color: rgb(59, 213, 42);
+    font-family: Arial, sans-serif;
+}
+.par4{
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: right;
+   
+}
+.span5{
+    color: red;
+    font-family: Arial, sans-serif;}
+.par5{
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: left;
+
+}
+.span6{
+    color: black;
+    font-family: Arial, sans-serif;
+    background-color: rgb(162, 238, 10);
+}
+.h1{
+    color:chartreuse
+}
+.par7{
+    color: white;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    border-right: 2px solid yellow;
+    border-left: 2px solid red;
+    background-color: black;
+
+}
+.h2{
+    color:yellow;
+    font-family: Arial, sans-serif;
+     width:50%;
+     text-decoration: underline;}
+
+body{
+ 
+    background-color:  #16365d;
+
+
+}
