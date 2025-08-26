@@ -1,0 +1,41 @@
+
+.card{
+    border : 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px -1px 12px 8px #8888;
+}
+    .card:hover{
+       background-color: rgb(204, 48, 48);
+        cursor: pointer;
+    }
+
+h2, p {
+    margin: 0;
+}
+
+.card-header{
+    display: flex;
+}
+
+.card-header{
+    border-bottom:1px solid black;
+    padding-bottom :10px;
+    margin-bottom: 10px;
+}
+.btn{
+    border:none;
+   background: #842a9b;
+background: linear-gradient(90deg, rgba(132, 42, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    color:white;
+    padding: 10px 20px;
+    border-radius: 100px;
+}
+.btn:hover{
+    background-color: rgb(108, 108, 207);
+    cursor: pointer;
+}
+.main {
+    display: flex;
+    gap: 20px;
+}
