@@ -1,0 +1,69 @@
+body{
+   margin:0;
+}
+h3, h2{
+    margin: 10px;
+}
+
+.header{
+    display: flex;
+    background: #212529;
+    height: 50px;
+    color: white;
+    padding: 10px;
+}
+.right-header{
+    display: flex;
+    margin-left: auto;
+    margin-top: 4px;
+}
+
+.btn{
+    margin: 10px;
+    background-color: #198753;   
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.btn1{
+    margin: 5px;
+    background-color: #f6fcf9;   
+    border: none;
+    border-radius: 5px;
+    color: rgb(10, 170, 63);
+}
+img{
+    width: 80%;
+    height: 20%;
+
+
+}
+
+.form{
+    display: flex;
+    background-color: #e6e0e0;
+
+}
+ 
+form {
+    width: 400px; 
+    border:1px solid #198753;
+    padding:20px;
+}
+.size{
+    width:20px;
+}
+.input{
+    border:none;
+    height:20px;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.Cards{
+     display: flex;
+    gap: 20px;
+}
