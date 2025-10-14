@@ -1,0 +1,193 @@
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #000000;
+}
+
+/* Primary color */
+:root {
+  --primary-color: #f86d72;
+}
+
+/* Navbar */
+.navbar-brand {
+  color: var(--primary-color) !important;
+  align-items: center;
+}
+.navbar-nav{
+  align-items: center;
+}
+.nav-link:hover {
+  color: var(--primary-color) !important;
+}
+
+/* Hero Section */
+.hero {
+  background: url("images/banner-image-bg.jpg") center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+}
+.hero h1, .hero p {
+  color:#000000
+}
+
+/* Features */
+.text-primary {
+  color: var(--primary-color) !important;
+  display: flex;
+}
+.price{
+  color:#f86d72;
+}
+
+/* Discount Banner */
+.promo-section{
+  background: url("images/banner-image-bg-1.jpg") center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.promo-text h1 {
+      font-weight: 700;
+      font-size: 2.5rem;
+      color: #222;
+    }
+    .promo-text p {
+      color: #555;
+    }
+    .btn-promo {
+      background-color: #f86d72;
+      color: #fff;
+      border: none;
+      border-radius: 50px;
+      padding: 10px 25px;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+    
+    .promo-img img {
+      max-width: 100%;
+      height: auto;
+      }
+h2 {
+      font-weight: 700;
+      margin-bottom: 35px;
+      color: #212529;
+    }
+
+    /* Category Card Container */
+    .category-card {
+      position: relative;
+      overflow: hidden;
+      border-radius: 15px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+      background-color: #fff;
+    }
+
+    .category-card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    /* Image Styling */
+    .category-card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 15px;
+    }
+
+    /* Label Overlay */
+    .category-label {
+      position: absolute;
+      bottom: 15px;
+      left: 15px;
+      background-color: #f86d72;
+      color: #fff;
+      padding: 6px 15px;
+      border-radius: 10px;
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+
+    /* Explore Button */
+    .category-btn {
+      background-color: #f86d72;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      padding: 8px 18px;
+      font-weight: 600;
+      margin-top: 10px;
+      transition: 0.3s ease;
+    }
+
+    .category-btn:hover {
+      background-color: #ff8b8f;
+    }
+
+    /* Center content below cards */
+    .category-content {
+      text-align: center;
+      margin-top: 15px;
+    }
+
+/* Buttons */
+.btn-light {
+  color: var(--primary-color);
+  border: none;
+  background-color: #fffafa;
+}
+.btn-light:hover {
+  background: var(--primary-color);
+  color: #ffffff;
+}
+
+/* Footer */
+footer {
+  font-size: 0.9rem;
+}
+/* Featured & Latest Items */
+section .fw-bold {
+  color: #111;
+}
+.text-primary {
+  color: #f86d72 !important;
+}
+.bg-white {
+  background: #fff;
+}
+/* Footer */
+.footer {
+  background: #fff;
+  font-family: 'Nunito', sans-serif;
+}
+
+.footer h3,
+.footer h5 {
+  color: #111;
+}
+
+.footer .text-primary {
+  color: #f86d72 !important;
+}
+
+.footer-link {
+  color: #444;
+  text-decoration:none ;
+  transition: color 0.3s ease;
+
+}
+.footer-link-1 {
+  color: #444;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+
+}
+.footer-link:hover {
+  color: #f86d72;
+}
