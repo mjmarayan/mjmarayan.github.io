@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+body{
+    background-color:antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+header{
+    background-color:burlywood;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+header a{
+    color: black;
+}
+header div{
+    padding: 20px;
+}
+footer{
+    padding:20px;
+    text-align: center;
+    background-color: beige;
+}
+input{
+    margin:4px;
+    padding:8px;
+    width:100%;
+}
+textarea{
+    margin:4px;
+    padding:8px;
+    width:100%;
+}
+button{
+    padding:10px;
+}
+h2{
+    text-align: center;
+}
+th{
+    text-align: left;
+}
