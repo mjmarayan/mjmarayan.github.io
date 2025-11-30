@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact - Dauin Tourism</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Discover Dauin</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="attractions.html">Attractions</a></li>
+          <li class="nav-item"><a class="nav-link" href="food-accommodations.html">Food & Accom</a></li>
+          <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+          <li class="nav-item"><a class="nav-link" href="officials.html">Officials</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="developers.html">Developers</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-5">
+    <h1>Municipality of Dauin Emergency Hotlines</h1>
+   
+    <div class="row">
+      <div class="col-md-6">
+        <form id="contactForm">
+          <div class="mb-3">
+            <label class="form-label">Name</label>
+            <input type="text" class="form-control" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Message</label>
+            <textarea class="form-control" rows="5" required></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Send Message</button>
+        </form>
+      </div>
+
+      <div class="col-md-6">
+        <h5>Dauin Tourism Office</h5>
+        <p>Address: Municipal Hall, Dauin, Negros Oriental<br>Phone: 09366965470<br>Email: dauintourism@gmail.com</p>
+        <h5>Ambulance</h5>
+        <p>Phone: 09397836124<br>Phone: 09531475293</p>
+        <h5>Tourist Police</h5>
+        <p>Phone: 09455430482</p>
+        <h5>Coastguard</h5>
+        <p>Phone: 09985858324</p>
+        <h5>Army</h5>
+        <p>Phone: 09157648768</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-dark text-white py-3 text-center">© 2025 Discover Dauin</footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function(e){
+      e.preventDefault();
+      alert('Message submitted (demo). Replace with a real form endpoint for live site).');
+    });
+  </script>
+</body>
+</html>
